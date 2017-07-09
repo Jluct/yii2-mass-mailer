@@ -1,0 +1,24 @@
+{
+    "name": "jluct/yii2-mass-mailer",
+    "description": "Extension for mass mailing",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","mailer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Listopadov",
+            "email": "panaev02@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jluct\\mailer": "yii2-mass-mailer\\src"
+        }
+    },
+    "scripts":{
+        "post-create-project-cmd":"jluct\\yii2-mass-mailer\\migrations\\jluct_maigrate_mailer::migrate"
+    }
+}
