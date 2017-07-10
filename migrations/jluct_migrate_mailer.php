@@ -1,5 +1,7 @@
 <?php
 
+namespace jluct\mailer\migrations;
+
 use yii\db\Migration;
 
 class jluct_migrate_mailer extends Migration
