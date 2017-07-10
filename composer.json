@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "jluct\\mailer": "jluct\\yii2-mass-mailer"
+            "jluct\\mailer\\": "jluct\\yii2-mass-mailer\\"
         }
     },
     "scripts":{
