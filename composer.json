@@ -19,6 +19,6 @@
         }
     },
     "scripts":{
-        "post-create-project-cmd":"jluct\\yii2-mass-mailer\\migrations\\jluct_maigrate_mailer::migrate"
+        "post-create-project-cmd":"jluct\\mailer\\migrations\\jluct_maigrate_mailer::migrate"
     }
 }
