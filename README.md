@@ -19,13 +19,15 @@ or add
 "jluct/yii2-mass-mailer": "*"
 ```
 
+and
+
+```
+"repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Jluct/yii2-mass-mailer.git"
+        }
+    ]
+```
+
 to the require section of your `composer.json` file.
-
-
-Usage
------
-
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?php echo  \jluct\\mailer\\AutoloadExample::widget(); ?>```
